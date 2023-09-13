@@ -26,12 +26,12 @@ const server = http.createServer((req, res) => {
         res.writeHead(404,{
             'Content-type':'text/html'
         })
-        res.end('<h1>Url Ini Gak Ada Apa 2</h1')
+        res.end('<h1>Url Ini Gak Ada Apa2</h1')
     }
   });
   
   server.listen(8000,'127.0.0.1',()=>{
-    console.log('Sever Running');
+    console.log('Sever Running is running on port 8000');
   });
 
 
